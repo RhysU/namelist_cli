@@ -1,7 +1,10 @@
 !> Proof of concept for parsing Fortran command line arguments using
-!! \c NAMELIST.  Check out <a href="http://home.comcast.net/~urbanjost/CLONE/KRACKEN/namelist/index.html">
+!! \c NAMELIST.  Check out
+!! <a href="http://home.comcast.net/~urbanjost/CLONE/KRACKEN/namelist/index.html">
 !! Exploring NAMELIST</a> by John S. Urban for the inspiration.  Compared
-!! to John's <a href="http://home.comcast.net/~urbanjost/CLONE/KRACKEN/namelist/cmd.bat">most complete version</a>, this hides all of the string
+!! to John's
+!! <a href="http://home.comcast.net/~urbanjost/CLONE/KRACKEN/namelist/cmd.bat"> 
+!! most complete version </a>, this demo hides all of the string
 !! processing details within \ref get_command_arguments().
 
 PROGRAM namelist_cli
