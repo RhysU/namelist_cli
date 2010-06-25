@@ -1,0 +1,8 @@
+This demo shows a way to parse Fortran command line arguments using NAMELIST.
+
+Check out "Exploring NAMELIST" by John S. Urban [1] for the inspiration.
+Compared to John's most complete version [2], this sample hides all of the
+string processing details within get_command_arguments().
+
+[1] http://home.comcast.net/~urbanjost/CLONE/KRACKEN/namelist/index.html
+[2] http://home.comcast.net/~urbanjost/CLONE/KRACKEN/namelist/cmd.bat
