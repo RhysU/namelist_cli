@@ -76,7 +76,7 @@ SUBROUTINE get_command_arguments (string, prefix, suffix, &
     ilast = COMMAND_ARGUMENT_COUNT()
   ENDIF
   IF (PRESENT(first)) THEN
-    ifirst = MIN(first, ilast)
+    ifirst = first
   ELSE
     ifirst = 1
   ENDIF
